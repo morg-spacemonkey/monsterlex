@@ -1,452 +1,452 @@
 [
     {
-        "Foto": "classic.png",
+        "Foto": "/owned/classic.png",
         "Nome": "Monster Classic",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "ultrarosa.png",
+        "Foto": "/owned/ultrarosa.png",
         "Nome": "Ultra Rosa",
         "Logo": ["Argento"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ultraparadise.png",
+        "Foto": "/owned/ultraparadise.png",
         "Nome": "Ultra Paradise",
         "Logo": ["Argento"],
         "Sfondo": ["Verde"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ultraviolet.png",
+        "Foto": "/owned/ultraviolet.png",
         "Nome": "Ultra Violet",
         "Logo": ["Argento"],
         "Sfondo": ["Viola"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ultrawhite.png",
+        "Foto": "/owned/ultrawhite.png",
         "Nome": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Bianco"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "ultrared.png",
+        "Foto": "/owned/ultrared.png",
         "Nome": "Ultra Red",
         "Logo": ["Argento"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "ultragold.png",
+        "Foto": "/owned/ultragold.png",
         "Nome": "Ultra Gold",
         "Logo": ["Argento"],
         "Sfondo": ["Oro"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "ultrafiestamango.png",
+        "Foto": "/owned/ultrafiestamango.png",
         "Nome": "Ultra Fiesta Mango",
         "Logo": ["Argento"],
         "Sfondo": ["Verde","Blu","Azzurro"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "ultrapeachy.png",
+        "Foto": "/owned/ultrapeachy.png",
         "Nome": "Ultra Peachy Keen",
         "Logo": ["Argento"],
         "Sfondo": ["Arancione","Pesca","Rosa"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ultrawatermelon.png",
+        "Foto": "/owned/ultrawatermelon.png",
         "Nome": "Ultra Watermelon",
         "Logo": ["Argento"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ultrablue.png",
+        "Foto": "/owned/ultrablue.png",
         "Nome": "Ultra Blue",
         "Logo": ["Argento"],
         "Sfondo": ["Blu","Azzurro"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ultrablack.png",
+        "Foto": "/owned/ultrablack.png",
         "Nome": "Ultra Black",
         "Logo": ["Argento"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "peachdragon.png",
+        "Foto": "/owned/peachdragon.png",
         "Nome": "Dragon Ice Tea Peach",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Arancione","Pesca"],
         "Linguetta": "Colorata",
-        "Piena": 1,
-        "Stato": "Piccole ammaccature"
+        "Piena": true,
+        "Stato": 2
     },
     {
-        "Foto": "lemondragon.png",
+        "Foto": "/owned/lemondragon.png",
         "Nome": "Dragon Ice Tea Lemon",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Verde"],
         "Linguetta": "Colorata",
-        "Piena": 1,
-        "Stato": "Piccole ammaccature"
+        "Piena": true,
+        "Stato": 2
     },
     {
-        "Foto": "dragonteagold.png",
+        "Foto": "/owned/dragonteagold.png",
         "Nome": "Dragon Tea Gold",
         "Logo": ["Blu","Nero"],
         "Sfondo": ["Oro"],
         "Linguetta": "Colorata",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "punchmixxd.png",
+        "Foto": "/owned/punchmixxd.png",
         "Nome": "Punch Mixxd",
         "Logo": ["Rosa"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "pipelinepunch.png",
+        "Foto": "/owned/pipelinepunch.png",
         "Nome": "Punch Pipeline Punch",
         "Logo": ["Rosa"],
         "Sfondo": ["Rosa","Pesca","Arancione"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "pacificpunch.png",
+        "Foto": "/owned/pacificpunch.png",
         "Nome": "Punch Pacific Punch",
         "Logo": ["Rosso"],
         "Sfondo": ["Beige","Panna"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "zerogreen.png",
+        "Foto": "/owned/zerogreen.png",
         "Nome": "Zero Sugar Green",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "zeroblu.png",
+        "Foto": "/owned/zeroblu.png",
         "Nome": "Zero Sugar Blue",
         "Logo": ["Azzurro","Blu"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "rehabstrawberry.png",
+        "Foto": "/owned/rehabstrawberry.png",
         "Nome": "Rehab Recover Strawberry Lemonade",
         "Logo": ["Nero"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Colorata",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "rehabgreentea.png",
+        "Foto": "/owned/rehabgreentea.png",
         "Nome": "Rehab Recover Green Tea",
         "Logo": ["Nero"],
         "Sfondo": ["Verde"],
         "Linguetta": "Colorata",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "rehabpeactea.png",
+        "Foto": "/owned/rehabpeactea.png",
         "Nome": "Rehab Peach Tea",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione","Pesca"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "rehablemonade.png",
+        "Foto": "/owned/rehablemonade.png",
         "Nome": "Rehab Lemonade Tea",
         "Logo": ["Nero"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "assault.png",
+        "Foto": "/owned/assault.png",
         "Nome": "Assault",
         "Logo": ["Rosso"],
         "Sfondo": ["Verde","Nero"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "mule.png",
+        "Foto": "/owned/mule.png",
         "Nome": "Mule",
         "Logo": ["Arancione","Pesca"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "megamonster.png",
+        "Foto": "/owned/megamonster.png",
         "Nome": "Mega Monster",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "superfuelblue.png",
+        "Foto": "/owned/superfuelblue.png",
         "Nome": "Super Fuel Blue Ice",
         "Logo": ["Blu"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ubermonster.png",
+        "Foto": "/owned/ubermonster.png",
         "Nome": "UberMonster",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": "Piccole ammaccature"
+        "Piena": false,
+        "Stato": 2
     },
     {
-        "Foto": "reservewhitepineapple.png",
+        "Foto": "/owned/reservewhitepineapple.png",
         "Nome": "Reserve White Pinapple",
         "Logo": ["Giallo"],
         "Sfondo": ["Nero"],
         "Linguetta": "Colorata",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "reservekiwi.png",
+        "Foto": "/owned/reservekiwi.png",
         "Nome": "Reserve Kiwi Strawberry",
         "Logo": ["Rosso"],
         "Sfondo": ["Nero"],
         "Linguetta": "Colorata",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "reserveorange.png",
+        "Foto": "/owned/reserveorange.png",
         "Nome": "Reserve Orange Dreamside",
         "Logo": ["Arancione"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "reservewatermelon.png",
+        "Foto": "/owned/reservewatermelon.png",
         "Nome": "Reserve Watermelon",
         "Logo": ["Rosso"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "nitrosuperdry.png",
+        "Foto": "/owned/nitrosuperdry.png",
         "Nome": "Nitro Super Dry",
         "Logo": ["Nero"],
         "Sfondo": ["Verde"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "nitrocosmicpeach.png",
+        "Foto": "/owned/nitrocosmicpeach.png",
         "Nome": "Nitro Cosmic Peach",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "khaotic.png",
+        "Foto": "/owned/khaotic.png",
         "Nome": "Juiced Khaotic",
         "Logo": ["Verde","Blu","Azzurro"],
         "Sfondo": ["Arancione","Giallo"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "ripper.png",
+        "Foto": "/owned/ripper.png",
         "Nome": "Juiced Ripper",
         "Logo": ["Giallo"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "monarch.png",
+        "Foto": "/owned/monarch.png",
         "Nome": "Juiced Monarch",
         "Logo": ["Giallo"],
         "Sfondo": ["Arancione","Pesca","Rosa"],
         "Linguetta": "Argento",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "mangoloco.png",
+        "Foto": "/owned/mangoloco.png",
         "Nome": "Juiced Mango Loco",
         "Logo": ["Arancione","Giallo"],
         "Sfondo": ["Blu","Azzurro"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "aussielemonade.png",
+        "Foto": "/owned/aussielemonade.png",
         "Nome": "Juice Aussie Lemonade",
         "Logo": ["Giallo"],
         "Sfondo": ["Verde","Blu","Azzurro"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "badapple.png",
+        "Foto": "/owned/badapple.png",
         "Nome": "Bad Apple",
         "Logo": ["Bianco","Rosso"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "thedoctor.png",
+        "Foto": "/owned/thedoctor.png",
         "Nome": "The Doctor VR 46",
         "Logo": ["Giallo"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "lewishamilton.png",
+        "Foto": "/owned/lewishamilton.png",
         "Nome": "Lewis Hamilton Zero",
         "Logo": ["Giallo"],
         "Sfondo": ["Blu","Verde"],
         "Linguetta": "Argento",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "lewishamiltonred.png",
+        "Foto": "/owned/lewishamiltonred.png",
         "Nome": "Lewis Hamilton",
         "Logo": ["Nero","Giallo"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     },
     {
-        "Foto": "locamoca.png",
+        "Foto": "/owned/locamoca.png",
         "Nome": "Java Loca Moca",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "saltedcaramel.png",
+        "Foto": "/owned/saltedcaramel.png",
         "Nome": "Java Salted Caramel",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": "Piccole ammaccature"
+        "Piena": true,
+        "Stato": 2
     },
     {
-        "Foto": "meanbean.png",
+        "Foto": "/owned/meanbean.png",
         "Nome": "Java Mean Bean",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "mocha300.png",
+        "Foto": "/owned/mocha300.png",
         "Nome": "Java Mocha 300",
         "Logo": ["Marrone","Beige","Rosso"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "frenchvanilla300.png",
+        "Foto": "/owned/frenchvanilla300.png",
         "Nome": "Java French Vanilla 300",
         "Logo": ["Marrone","Beige","Azzurro"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
-        "Piena": 1,
-        "Stato": ""
+        "Piena": true,
+        "Stato": 0
     },
     {
-        "Foto": "espresso.png",
+        "Foto": "/owned/espresso.png",
         "Nome": "Espresso",
         "Logo": ["Giallo","Oro"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
-        "Piena": 0,
-        "Stato": ""
+        "Piena": false,
+        "Stato": 0
     }
 ]

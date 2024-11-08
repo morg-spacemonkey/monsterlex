@@ -89,7 +89,7 @@ useEffect(()=>{
           <div>
           <h1>{monster.Nome}</h1>
           <p>{monster.Linguetta}</p>
-          <p>{monster.Piena}</p>
+          <p>{monster.Piena == true ? 'Piena' : 'Vuota'}</p>
           <p>{monster.Stato}</p>
           </div>
         </div>

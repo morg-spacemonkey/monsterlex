@@ -1,0 +1,52 @@
+[
+    {
+        "Foto": "/lookfor/cocaoreo.png",
+        "Nome": "Coca Cola Oreo",
+        "Link": "https://americanuncle.it/products/coca-cola-zero-sugar-oreo-limited-edition-250ml"
+    },
+    {
+        "Foto": "/lookfor/irishcream.png",
+        "Nome": "Java Irish Cream",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-rio-punch"
+    },
+    {
+        "Foto": "/lookfor/rehablemonade.png",
+        "Nome": "Rehab Recover Tea Lemonade",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-rehab-recover-lemonade-tea/"
+    },
+    {
+        "Foto": "/lookfor/rehabpeachtea.png",
+        "Nome": "Rehab Recover Peach Tea",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-rehab-recover-peach-tea"
+    },
+    {
+        "Foto": "/lookfor/rehabwatermelon.png",
+        "Nome": "Rehab Recover Watermelon",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-rehab-recover-watermelon-tea"
+    },
+    {
+        "Foto": "/lookfor/reservepeach.png",
+        "Nome": "Reserve Peach n'Cream",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-reserve-peaches-ncreme"
+    },
+    {
+        "Foto": "/lookfor/riopunch.png",
+        "Nome": "Juice Rio Punch",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-rio-punch"
+    },
+    {
+        "Foto": "/lookfor/ultrafantasyruby.png",
+        "Nome": "Ultra Fantasy Ruby Red",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-ultra-fantasy-ruby-red"
+    },
+    {
+        "Foto": "/lookfor/ultrastrawberry.png",
+        "Nome": "Ultra Strawberry Dreams",
+        "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-ultra-strawberry-eu"
+    },
+    {
+        "Foto": "/lookfor/ultrasunrise.png",
+        "Nome": "Black Ultra Sunrise",
+        "Link": "https://www.wardenwayamerica.com/collections/elite-cans-limited-edition"
+    }
+]

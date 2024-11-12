@@ -28,10 +28,18 @@ useEffect(()=>{
       return monster.Nome.toLowerCase().includes(query.toLowerCase());
     });
   }
+
+  if (Sfondo && Sfondo != 'Tutti') {
+    monstersData = monstersData.filter((monster) =>  monster.Sfondo.includes(Logo));
+  }
+
+  if (Logo && Logo != 'Tutti') {
+    monstersData = monstersData.filter((monster) =>  monster.Logo.includes(Logo));
+  }
+
   setMonstersToVisualize(monstersData);
 
-
-}, [query]);
+}, [query, Logo, Sfondo]);
 
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -40,48 +48,48 @@ useEffect(()=>{
           Cerca: <br/>
           <input type={'text'} value={query} onChange={(e) => setQuery(e.target.value)} className={'mb-20'}/><br/>
           Filtra Logo: <br/>
-          <select defaultValue={0} onChange={(e) => setLogo((e.target.value))}>
-            <option value={''}>Tutti</option>
-            <option value={'giallo'}>Giallo</option>
-            <option value={'arancione'}>Arancione</option>
-            <option value={'pesca'}>Pesca</option>
-            <option value={'rosa'}>Rosa</option>
-            <option value={'rosso'}>Rosso</option>
-            <option value={'oro'}>Oro</option>
-            <option value={'argento'}>Argento</option>
-            <option value={'azzurro'}>Azzurro</option>
-            <option value={'blu'}>Blu</option>
-            <option value={'verde'}>Verde</option>
-            <option value={'bianco'}>Bianco</option>
-            <option value={'marrone'}>Marrone</option>
-            <option value={'beige'}>Beige</option>
-            <option value={'nero'}>Nero</option>
+          <select defaultValue={'Tutti'} onChange={(e) => setLogo((e.target.value))}>
+            <option value={'Tutti'}>Tutti</option>
+            <option value={'Giallo'}>Giallo</option>
+            <option value={'Arancione'}>Arancione</option>
+            <option value={'Pesca'}>Pesca</option>
+            <option value={'Rosa'}>Rosa</option>
+            <option value={'Rosso'}>Rosso</option>
+            <option value={'Oro'}>Oro</option>
+            <option value={'Aargento'}>Argento</option>
+            <option value={'Azzurro'}>Azzurro</option>
+            <option value={'Blu'}>Blu</option>
+            <option value={'Verde'}>Verde</option>
+            <option value={'Bianco'}>Bianco</option>
+            <option value={'Marrone'}>Marrone</option>
+            <option value={'Beige'}>Beige</option>
+            <option value={'Nero'}>Nero</option>
           </select><br/>
           Filtra Sfondo: <br/>
-          <select defaultValue={0} onChange={(e) => setSfondo((e.target.value))}>
-            <option value={""}>Tutti</option>
-            <option value={'giallo'}>Giallo</option>
-            <option value={'arancione'}>Arancione</option>
-            <option value={'pesca'}>Pesca</option>
-            <option value={'rosa'}>Rosa</option>
-            <option value={'viola'}>Viola</option>
-            <option value={'rosso'}>Rosso</option>
-            <option value={'oro'}>Oro</option>
-            <option value={'azzurro'}>Azzurro</option>
-            <option value={'blu'}>Blu</option>
-            <option value={'verde'}>Verde</option>
-            <option value={'bianco'}>Bianco</option>
-            <option value={'marrone'}>Marrone</option>
-            <option value={'beige'}>Beige</option>
-            <option value={'panna'}>Panna</option>
-            <option value={'nero'}>Nero</option>
+          <select defaultValue={'Tutti'} onChange={(e) => setSfondo((e.target.value))}>
+            <option value={'Tutti'}>Tutti</option>
+            <option value={'Giallo'}>Giallo</option>
+            <option value={'Arancione'}>Arancione</option>
+            <option value={'Pesca'}>Pesca</option>
+            <option value={'Rosa'}>Rosa</option>
+            <option value={'Viola'}>Viola</option>
+            <option value={'Rosso'}>Rosso</option>
+            <option value={'Oro'}>Oro</option>
+            <option value={'Azzurro'}>Azzurro</option>
+            <option value={'Blu'}>Blu</option>
+            <option value={'Verde'}>Verde</option>
+            <option value={'Bianco'}>Bianco</option>
+            <option value={'Marrone'}>Marrone</option>
+            <option value={'Beige'}>Beige</option>
+            <option value={'Panna'}>Panna</option>
+            <option value={'Nero'}>Nero</option>
           </select><br/>
         </div>
 
       {monstersToVisualize.map((monster, index) => (
         <div key={index} /* className={'bg-white p-10 mb-5 w-50 text-black'} */ style={{display: 'flex', flexDirection: 'row', margin:'auto'}}> 
           <div><Image src={monster.Foto} alt={monster.Nome} width="150" height="300"/></div>
-          <div style={{margin:'auto'}}>
+          <div style={{marginLeft:'20px', margin:'auto'}}>
           <h1><b>Nome:</b><br/>{monster.Nome}</h1>
           <p><b>Linguetta:</b><br/>{monster.Linguetta}</p>
           <p><b>Stato:</b><br/>{monster.Piena == true ? 'Piena' : 'Vuota'}</p>

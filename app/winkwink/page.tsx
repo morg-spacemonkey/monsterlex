@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import Monsters from '../../../data/lookfor.json';
+import Monsters from '@/data/lookfor.json';
 import {useEffect, useState} from "react";
 
 interface Monster {
@@ -32,7 +32,7 @@ useEffect(()=>{
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1>Le lattine qui andrebbero comprate in doppia copia, love <br/>Clicca sulla lattina o sul nome per andare al sito</h1>
         {monstersToVisualize.map((monster, index) => (
-        <div key={index} /* className={'bg-white p-10 mb-5 w-50 text-black'} */ style={{display: 'flex', flexDirection: 'row', margin:'auto'}}> 
+        <div key={index} /* className={'bg-white p-10 mb-5 w-50 text-black'} */ style={{display: 'flex', flexDirection: 'row', margin:'auto'}}>
           <a href={monster.Link}><div><Image src={monster.Foto} alt={monster.Nome} width="150" height="300"/></div>
           <div style={{marginLeft:'20px', margin:'auto'}}>
           <b>Nome:</b><br/>{monster.Nome}

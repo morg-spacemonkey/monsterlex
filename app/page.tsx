@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import Monsters from '../../data/owned.json';
+import Monsters from '@/data/owned.json';
 import {useEffect, useState} from "react";
 
 interface Monster {
@@ -87,7 +87,7 @@ useEffect(()=>{
         </div>
 
       {monstersToVisualize.map((monster, index) => (
-        <div key={index} /* className={'bg-white p-10 mb-5 w-50 text-black'} */ style={{display: 'flex', flexDirection: 'row', margin:'auto'}}> 
+        <div key={index} /* className={'bg-white p-10 mb-5 w-50 text-black'} */ style={{display: 'flex', flexDirection: 'row', margin:'auto'}}>
           <div><Image src={monster.Foto} alt={monster.Nome} width="150" height="300"/></div>
           <div style={{marginLeft:'20px', margin:'auto'}}>
           <h1><b>Nome:</b><br/>{monster.Nome}</h1>

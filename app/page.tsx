@@ -92,7 +92,7 @@ useEffect(()=>{
           <div style={{marginLeft:'20px', margin:'auto'}}>
           <h1><b>Nome:</b><br/>{monster.Nome}</h1>
           <p><b>Linguetta:</b><br/>{monster.Linguetta}</p>
-          <p><b>Stato:</b><br/>{monster.Piena == true ? 'Piena' : 'Vuota'}</p>
+          <p><b>Stato:</b><br/>{monster.Piena ? 'Piena' : 'Vuota'}</p>
           <p><b>Conservazione:</b><br/>{(() => {
                   switch (monster.Stato) {
                     case 0:  return "Non impostato";

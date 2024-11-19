@@ -32,8 +32,8 @@
         "Logo": ["Argento"],
         "Sfondo": ["Viola"],
         "Linguetta": "Argento",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrawhite.png",
@@ -86,8 +86,8 @@
         "Logo": ["Argento"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Argento",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrablue.png",
@@ -140,8 +140,8 @@
         "Logo": ["Rosa"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/pipelinepunch.png",
@@ -212,8 +212,8 @@
         "Logo": ["Nero"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Nera",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/assault.png",
@@ -311,8 +311,8 @@
         "Logo": ["Nero"],
         "Sfondo": ["Arancione"],
         "Linguetta": "Nera",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/khaotic.png",
@@ -329,8 +329,8 @@
         "Logo": ["Giallo"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Argento",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/monarch.png",
@@ -448,5 +448,14 @@
         "Linguetta": "Nera",
         "Piena": false,
         "Stato": 0
+    },
+    {
+        "Foto": "/owned/rehabpeachtea.png",
+        "Nome": "Rehab Recover Peach Tea",
+        "Logo": ["Nero"],
+        "Sfondo": ["Arancione"],
+        "Linguetta": "Argento",
+        "Piena": true,
+        "Stato": 1
     }
 ]

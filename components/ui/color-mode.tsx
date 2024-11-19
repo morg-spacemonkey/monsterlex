@@ -8,7 +8,7 @@ import * as React from "react"
 import { LuMoon, LuSun } from "react-icons/lu"
 
 export interface ColorModeProviderProps extends ThemeProviderProps {
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
 export function ColorModeProvider(props: ColorModeProviderProps) {

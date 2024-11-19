@@ -30,7 +30,9 @@ export const AccordionItemTrigger = React.forwardRef<
   )
 })
 
-interface AccordionItemContentProps extends Accordion.ItemContentProps {}
+interface AccordionItemContentProps extends Accordion.ItemContentProps {
+  children: React.ReactNode
+}
 
 export const AccordionItemContent = React.forwardRef<
   HTMLDivElement,

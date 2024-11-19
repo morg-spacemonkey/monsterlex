@@ -11,6 +11,8 @@ interface Item {
 
 export interface SegmentedControlProps extends SegmentGroup.RootProps {
   items: Array<string | Item>
+  backgroundColor?: string
+  indicatorColor?: string
 }
 
 function normalize(items: Array<string | Item>): Item[] {

@@ -5,8 +5,7 @@ import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "@/redux/store";
 import {selectFilters} from "@/redux/filtersSlice/selectors";
 import {setResultsNumber} from "@/redux/filtersSlice/filtersSlice";
-import {Box, Card, Text} from "@chakra-ui/react";
-import {Button} from "@/components/ui/button";
+import {Box, Card} from "@chakra-ui/react";
 import {DataListItem, DataListRoot} from "@/components/ui/data-list";
 
 interface Monster {
@@ -81,6 +80,7 @@ export default function Home() {
 
     dispatch(setResultsNumber({resultsNumber: monstersData.length}));
 
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, logoColor, backgroundColor, full, tabColor, status]);
 
   const normalizeStatus = (status: number) => {

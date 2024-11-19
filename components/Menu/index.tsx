@@ -1,18 +1,17 @@
-import { Box} from "@chakra-ui/react";
+import {Box} from "@chakra-ui/react";
 import Image from "next/image";
-import {CiMenuFries} from "react-icons/ci";
 import {Button} from "@/components/ui/button";
 import {
-  DrawerActionTrigger,
-  DrawerBackdrop, DrawerBody,
+  DrawerBackdrop,
+  DrawerBody,
   DrawerCloseTrigger,
-  DrawerContent, DrawerFooter,
+  DrawerContent,
   DrawerHeader,
-  DrawerRoot, DrawerTitle,
+  DrawerRoot,
   DrawerTrigger
 } from "@/components/ui/drawer";
 import {TiThMenu} from "react-icons/ti";
-import Sidebar, {SidebarBody} from "@/components/Sidebar";
+import {SidebarBody} from "@/components/Sidebar";
 
 
 export const Menu = () => {

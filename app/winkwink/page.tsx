@@ -10,7 +10,7 @@ interface Monster {
 }
 
 export default function Home() {
-  const [query, setQuery] = useState<string>('');
+  const [query] = useState<string>('');
   const [monstersToVisualize, setMonstersToVisualize] = useState<Monster[]>(Monsters);
 
 

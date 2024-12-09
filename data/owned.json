@@ -81,6 +81,15 @@
         "Stato": 1
     },
     {
+        "Foto": "/owned/ultrastrawberry.png",
+        "Nome": "Ultra Strawberry Dreams",
+        "Logo": ["Argento"],
+        "Sfondo": ["Rosa"],
+        "Linguetta": "Argento",
+        "Piena": true,
+        "Stato": 1
+    },
+    {
         "Foto": "/owned/ultrawatermelon.png",
         "Nome": "Ultra Watermelon",
         "Logo": ["Argento"],
@@ -457,15 +466,7 @@
         "Linguetta": "Nera",
         "Piena": false,
         "Stato": 1
-    },
-    {
-        "Foto": "/owned/ultrastrawberry.png",
-        "Nome": "Ultra Strawberry Dreams",
-        "Logo": ["Argento"],
-        "Sfondo": ["Rosa"],
-        "Linguetta": "Argento",
-        "Piena": true,
-        "Stato": 1
     }
+   
 
 ]

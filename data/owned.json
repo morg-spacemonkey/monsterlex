@@ -2,6 +2,7 @@
     {
         "Foto": "/owned/classic.png",
         "Nome": "Monster Classic",
+        "Collezione": "Core",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
@@ -11,6 +12,7 @@
     {
         "Foto": "/owned/ultrarosa.png",
         "Nome": "Ultra Rosa",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
@@ -20,6 +22,7 @@
     {
         "Foto": "/owned/ultraparadise.png",
         "Nome": "Ultra Paradise",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Verde"],
         "Linguetta": "Argento",
@@ -29,6 +32,7 @@
     {
         "Foto": "/owned/ultraviolet.png",
         "Nome": "Ultra Violet",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Viola"],
         "Linguetta": "Argento",
@@ -38,6 +42,7 @@
     {
         "Foto": "/owned/ultrawhite.png",
         "Nome": "Ultra",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Bianco"],
         "Linguetta": "Nera",
@@ -47,6 +52,7 @@
     {
         "Foto": "/owned/ultrared.png",
         "Nome": "Ultra Red",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Argento",
@@ -56,6 +62,7 @@
     {
         "Foto": "/owned/ultragold.png",
         "Nome": "Ultra Gold",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Oro"],
         "Linguetta": "Argento",
@@ -65,6 +72,7 @@
     {
         "Foto": "/owned/ultrafiestamango.png",
         "Nome": "Ultra Fiesta Mango",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Verde","Blu","Azzurro"],
         "Linguetta": "Argento",
@@ -74,6 +82,7 @@
     {
         "Foto": "/owned/ultrapeachy.png",
         "Nome": "Ultra Peachy Keen",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Arancione","Pesca","Rosa"],
         "Linguetta": "Argento",
@@ -83,6 +92,7 @@
     {
         "Foto": "/owned/ultrastrawberry.png",
         "Nome": "Ultra Strawberry Dreams",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
@@ -92,6 +102,7 @@
     {
         "Foto": "/owned/ultrawatermelon.png",
         "Nome": "Ultra Watermelon",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Argento",
@@ -101,6 +112,7 @@
     {
         "Foto": "/owned/ultrablue.png",
         "Nome": "Ultra Blue",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Blu","Azzurro"],
         "Linguetta": "Argento",
@@ -110,6 +122,7 @@
     {
         "Foto": "/owned/ultrablack.png",
         "Nome": "Ultra Black",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
@@ -119,6 +132,7 @@
     {
         "Foto": "/owned/peachdragon.png",
         "Nome": "Dragon Ice Tea Peach",
+        "Collezione": "Dragon Iced Tea",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Arancione","Pesca"],
         "Linguetta": "Colorata",
@@ -128,6 +142,7 @@
     {
         "Foto": "/owned/lemondragon.png",
         "Nome": "Dragon Ice Tea Lemon",
+        "Collezione": "Dragon Iced Tea",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Verde"],
         "Linguetta": "Colorata",
@@ -137,6 +152,7 @@
     {
         "Foto": "/owned/dragonteagold.png",
         "Nome": "Dragon Tea Gold",
+        "Collezione": "Dragon Tea",
         "Logo": ["Blu","Nero"],
         "Sfondo": ["Oro"],
         "Linguetta": "Colorata",
@@ -146,6 +162,7 @@
     {
         "Foto": "/owned/punchmixxd.png",
         "Nome": "Punch Mixxd",
+        "Collezione": "Punch",
         "Logo": ["Rosa"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
@@ -155,6 +172,7 @@
     {
         "Foto": "/owned/pipelinepunch.png",
         "Nome": "Punch Pipeline Punch",
+        "Collezione": "Punch",
         "Logo": ["Rosa"],
         "Sfondo": ["Rosa","Pesca","Arancione"],
         "Linguetta": "Argento",
@@ -164,6 +182,7 @@
     {
         "Foto": "/owned/pacificpunch.png",
         "Nome": "Punch Pacific Punch",
+        "Collezione": "Punch",
         "Logo": ["Rosso"],
         "Sfondo": ["Beige","Panna"],
         "Linguetta": "Argento",
@@ -173,6 +192,7 @@
     {
         "Foto": "/owned/zerogreen.png",
         "Nome": "Zero Sugar Green",
+        "Collezione": "Core",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
@@ -182,6 +202,7 @@
     {
         "Foto": "/owned/zeroblu.png",
         "Nome": "Zero Sugar Blue",
+        "Collezione": "Core",
         "Logo": ["Azzurro","Blu"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
@@ -191,6 +212,7 @@
     {
         "Foto": "/owned/recoverpeachtea.png",
         "Nome": "Rehab Recover Peach Tea",
+        "Collezione": "Rehab Recover",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione"],
         "Linguetta": "Nera",
@@ -200,6 +222,7 @@
     {
         "Foto": "/owned/recoverstrawberry.png",
         "Nome": "Rehab Recover Strawberry Lemonade",
+        "Collezione": "Rehab Recover",
         "Logo": ["Nero"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Colorata",
@@ -209,6 +232,7 @@
     {
         "Foto": "/owned/recovergreentea.png",
         "Nome": "Rehab Recover Green Tea",
+        "Collezione": "Rehab Recover",
         "Logo": ["Nero"],
         "Sfondo": ["Verde"],
         "Linguetta": "Colorata",
@@ -218,6 +242,7 @@
     {
         "Foto": "/owned/rehabpeachtea.png",
         "Nome": "Rehab Peach Tea",
+        "Collezione": "Rehab",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione","Pesca"],
         "Linguetta": "Argento",
@@ -227,6 +252,7 @@
     {
         "Foto": "/owned/rehablemonade.png",
         "Nome": "Rehab Lemonade Tea",
+        "Collezione": "Rehab",
         "Logo": ["Nero"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Nera",
@@ -236,6 +262,7 @@
     {
         "Foto": "/owned/assault.png",
         "Nome": "Assault",
+        "Collezione": "Core",
         "Logo": ["Rosso"],
         "Sfondo": ["Verde","Nero"],
         "Linguetta": "Argento",
@@ -245,6 +272,7 @@
     {
         "Foto": "/owned/mule.png",
         "Nome": "Mule",
+        "Collezione": "Core",
         "Logo": ["Arancione","Pesca"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
@@ -254,6 +282,7 @@
     {
         "Foto": "/owned/megamonster.png",
         "Nome": "Mega Monster",
+        "Collezione": "Core",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
@@ -263,6 +292,7 @@
     {
         "Foto": "/owned/superfuelblue.png",
         "Nome": "Super Fuel Blue Ice",
+        "Collezione": "Super Fuel",
         "Logo": ["Blu"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
@@ -272,6 +302,7 @@
     {
         "Foto": "/owned/ubermonster.png",
         "Nome": "UberMonster",
+        "Collezione": "Core",
         "Logo": ["Verde"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
@@ -281,6 +312,7 @@
     {
         "Foto": "/owned/reservewhitepineapple.png",
         "Nome": "Reserve White Pinapple",
+        "Collezione": "Reserve",
         "Logo": ["Giallo"],
         "Sfondo": ["Nero"],
         "Linguetta": "Colorata",
@@ -290,6 +322,7 @@
     {
         "Foto": "/owned/reservekiwi.png",
         "Nome": "Reserve Kiwi Strawberry",
+        "Collezione": "Reserve",
         "Logo": ["Rosso"],
         "Sfondo": ["Nero"],
         "Linguetta": "Colorata",
@@ -299,6 +332,7 @@
     {
         "Foto": "/owned/reserveorange.png",
         "Nome": "Reserve Orange Dreamside",
+        "Collezione": "Reserve",
         "Logo": ["Arancione"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
@@ -308,6 +342,7 @@
     {
         "Foto": "/owned/reservewatermelon.png",
         "Nome": "Reserve Watermelon",
+        "Collezione": "Reserve",
         "Logo": ["Rosso"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
@@ -317,6 +352,7 @@
     {
         "Foto": "/owned/nitrosuperdry.png",
         "Nome": "Nitro Super Dry",
+        "Collezione": "Nitro",
         "Logo": ["Nero"],
         "Sfondo": ["Verde"],
         "Linguetta": "Nera",
@@ -326,6 +362,7 @@
     {
         "Foto": "/owned/nitrocosmicpeach.png",
         "Nome": "Nitro Cosmic Peach",
+        "Collezione": "Nitro",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione"],
         "Linguetta": "Nera",
@@ -335,6 +372,7 @@
     {
         "Foto": "/owned/khaotic.png",
         "Nome": "Juiced Khaotic",
+        "Collezione": "Juiced",
         "Logo": ["Verde","Blu","Azzurro"],
         "Sfondo": ["Arancione","Giallo"],
         "Linguetta": "Argento",
@@ -344,6 +382,7 @@
     {
         "Foto": "/owned/ripper.png",
         "Nome": "Juiced Ripper",
+        "Collezione": "Juiced",
         "Logo": ["Giallo"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Argento",
@@ -353,6 +392,7 @@
     {
         "Foto": "/owned/monarch.png",
         "Nome": "Juiced Monarch",
+        "Collezione": "Juiced",
         "Logo": ["Giallo"],
         "Sfondo": ["Arancione","Pesca","Rosa"],
         "Linguetta": "Argento",
@@ -362,6 +402,7 @@
     {
         "Foto": "/owned/mangoloco.png",
         "Nome": "Juiced Mango Loco",
+        "Collezione": "Juiced",
         "Logo": ["Arancione","Giallo"],
         "Sfondo": ["Blu","Azzurro"],
         "Linguetta": "Nera",
@@ -371,6 +412,7 @@
     {
         "Foto": "/owned/aussielemonade.png",
         "Nome": "Juice Aussie Lemonade",
+        "Collezione": "Juiced",
         "Logo": ["Giallo"],
         "Sfondo": ["Verde","Blu","Azzurro"],
         "Linguetta": "Argento",
@@ -379,7 +421,8 @@
     },
     {
         "Foto": "/owned/badapple.png",
-        "Nome": "Bad Apple",
+        "Nome": "Juiced Bad Apple",
+        "Collezione": "Juiced",
         "Logo": ["Bianco","Rosso"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
@@ -389,6 +432,7 @@
     {
         "Foto": "/owned/thedoctor.png",
         "Nome": "The Doctor VR 46",
+        "Collezione": "Core",
         "Logo": ["Giallo"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Nera",
@@ -398,6 +442,7 @@
     {
         "Foto": "/owned/lewishamilton.png",
         "Nome": "Lewis Hamilton Zero",
+        "Collezione": "Core",
         "Logo": ["Giallo"],
         "Sfondo": ["Blu","Verde"],
         "Linguetta": "Argento",
@@ -407,6 +452,7 @@
     {
         "Foto": "/owned/lewishamiltonred.png",
         "Nome": "Lewis Hamilton",
+        "Collezione": "Core",
         "Logo": ["Nero","Giallo"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Nera",
@@ -416,6 +462,7 @@
     {
         "Foto": "/owned/locamoca.png",
         "Nome": "Java Loca Moca",
+        "Collezione": "Java",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
@@ -425,6 +472,7 @@
     {
         "Foto": "/owned/saltedcaramel.png",
         "Nome": "Java Salted Caramel",
+        "Collezione": "Java",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
@@ -434,6 +482,7 @@
     {
         "Foto": "/owned/meanbean.png",
         "Nome": "Java Mean Bean",
+        "Collezione": "Java",
         "Logo": ["Marrone","Beige"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
@@ -443,6 +492,7 @@
     {
         "Foto": "/owned/mocha300.png",
         "Nome": "Java Mocha 300",
+        "Collezione": "Java",
         "Logo": ["Marrone","Beige","Rosso"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
@@ -452,6 +502,7 @@
     {
         "Foto": "/owned/frenchvanilla300.png",
         "Nome": "Java French Vanilla 300",
+        "Collezione": "Java",
         "Logo": ["Marrone","Beige","Azzurro"],
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
@@ -461,6 +512,7 @@
     {
         "Foto": "/owned/espresso.png",
         "Nome": "Espresso",
+        "Collezione": "Core",
         "Logo": ["Giallo","Oro"],
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",

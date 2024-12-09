@@ -11,6 +11,7 @@ import {DataListItem, DataListRoot} from "@/components/ui/data-list";
 interface Monster {
   Foto: string;
   Nome: string;
+  Collezione: string;
   Logo: Array<string>;
   Sfondo: Array<string>;
   Linguetta: string;
@@ -19,7 +20,7 @@ interface Monster {
 }
 
 export default function Home() {
-  const {query, logoColor, backgroundColor, full, tabColor, status} = useSelector(selectFilters);
+  const {query, logoColor, backgroundColor, full, tabColor, collection, status} = useSelector(selectFilters);
   const dispatch = useDispatch();
   const [monstersToVisualize, setMonstersToVisualize] = useState<Monster[]>(Monsters);
 
@@ -48,6 +49,10 @@ export default function Home() {
 
       //* If the full filter is active and the monster is not full, return false
       if (full && monster.Piena) {
+        return false;
+      }
+
+      if (collection && monster.Collezione !== collection) {
         return false;
       }
 
@@ -81,7 +86,7 @@ export default function Home() {
     dispatch(setResultsNumber({resultsNumber: monstersData.length}));
 
     //eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [query, logoColor, backgroundColor, full, tabColor, status]);
+  }, [query, logoColor, backgroundColor, full, tabColor, collection, status]);
 
   const normalizeStatus = (status: number) => {
     switch (status) {
@@ -114,6 +119,9 @@ export default function Home() {
           <Card.Body gap="2">
             <Card.Title>{monster.Nome}</Card.Title>
             <DataListRoot>
+            <Box className={'flex flex-wrap gap-5'}>
+                <DataListItem label={'Collection'} value={monster.Collezione}/>
+              </Box>
               <Box className={'flex flex-wrap gap-5'}>
                 <DataListItem label={'Logo Color'} value={monster.Logo}/>
                 <DataListItem label={'Background Color'} value={monster.Sfondo}/>

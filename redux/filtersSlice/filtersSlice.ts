@@ -6,6 +6,7 @@ export interface FiltersState {
   backgroundColor?: string;
   full?: boolean;
   tabColor?: string;
+  collection?: string;
   status?: string;
   resultsNumber?: number;
 }
@@ -15,6 +16,7 @@ const initialState: FiltersState = {
   logoColor: '',
   backgroundColor: '',
   tabColor: '',
+  collection: '',
   full: false,
   status: '',
   resultsNumber: 0
@@ -42,11 +44,14 @@ const filtersSlice = createSlice({
     setTabColor(state, action: PayloadAction<FiltersState>) {
       state.tabColor = action?.payload.tabColor
     },
+    setCollection(state, action: PayloadAction<FiltersState>) {
+      state.collection = action?.payload.collection
+    },
     setStatus(state, action: PayloadAction<FiltersState>) {
       state.status = action?.payload.status
     }
   }
 })
 
-export const { setQuery, setBackgroundColor, setLogoColor, setResultsNumber, setFull, setTabColor, setStatus } = filtersSlice.actions
+export const { setQuery, setBackgroundColor, setLogoColor, setResultsNumber, setFull, setTabColor, setCollection, setStatus } = filtersSlice.actions
 export default filtersSlice.reducer

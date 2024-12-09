@@ -14,4 +14,6 @@ export const selectFull = (state:ReduxState) => state.filters.full
 
 export const selectTabColor = (state:ReduxState) => state.filters.tabColor
 
+export const selectCollection = (state:ReduxState) => state.filters.collection
+
 export const selectStatus = (state:ReduxState) => state.filters.status

@@ -3,6 +3,7 @@
     {
         "Foto": "/lookfor/irishcream.png",
         "Nome": "Java Irish Cream",
+        "Collezione": "Java",
         "Logo": ["Marrone"],
         "Sfondo": ["Verde"],
         "Linguetta": "Nera",
@@ -11,6 +12,7 @@
     {
         "Foto": "/lookfor/rehablemonade.png",
         "Nome": "Rehab Recover Tea Lemonade",
+        "Collezione": "Rehab Recover",
         "Logo": ["Nero"],
         "Sfondo": ["Giallo"],
         "Linguetta": "Colorata",
@@ -19,6 +21,7 @@
     {
         "Foto": "/lookfor/rehabwatermelon.png",
         "Nome": "Rehab Recover Watermelon",
+        "Collezione": "Rehab Recover",
         "Logo": ["Nero"],
         "Sfondo": ["Rosso"],
         "Linguetta": "Nera",
@@ -27,6 +30,7 @@
     {
         "Foto": "/lookfor/reservepeach.png",
         "Nome": "Reserve Peach n'Cream",
+        "Collezione": "Reserve",
         "Logo": ["Arancione","Pesca","Rosa"],
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
@@ -35,6 +39,7 @@
     {
         "Foto": "/lookfor/riopunch.png",
         "Nome": "Juice Rio Punch",
+        "Collezione": "Juiced",
         "Logo": ["Verde","Blu","Azzurro"],
         "Sfondo": ["Giallo","Verde"],
         "Linguetta": "Colorata",
@@ -43,6 +48,7 @@
     {
         "Foto": "/lookfor/ultrafantasyruby.png",
         "Nome": "Ultra Fantasy Ruby Red",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
@@ -51,6 +57,7 @@
     {
         "Foto": "/lookfor/ultrasunrise.png",
         "Nome": "Black Ultra Sunrise",
+        "Collezione": "Ultra",
         "Logo": ["Argento"],
         "Sfondo": ["Arancione"],
         "Linguetta": "Argento",

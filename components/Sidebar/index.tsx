@@ -8,7 +8,8 @@ import {
   setLogoColor,
   setQuery,
   setStatus,
-  setTabColor
+  setTabColor,
+  setCollection
 } from "@/redux/filtersSlice/filtersSlice";
 import React from "react";
 import {Field} from "@/components/ui/field";
@@ -29,12 +30,13 @@ export const Sidebar = () => {
 }
 
 export const SidebarBody = () => {
-  const {query, logoColor, backgroundColor, resultsNumber, full, tabColor, status} = useSelector(selectFilters);
+  const {query, logoColor, backgroundColor, resultsNumber, full, tabColor, collection, status} = useSelector(selectFilters);
   const dispatch = useDispatch();
 
   const LogoColors = ['Giallo', 'Arancione', 'Pesca', 'Rosa', 'Rosso', 'Oro', 'Argento', 'Azzurro', 'Blu', 'Verde', 'Bianco', 'Marrone', 'Beige', 'Nero'];
   const BackgroundColors = ['Giallo', 'Arancione', 'Pesca', 'Rosa', 'Viola', 'Rosso', 'Oro', 'Azzurro', 'Blu', 'Verde', 'Bianco', 'Marrone', 'Beige', 'Panna', 'Nero'];
   const TabColors = ['Nera', 'Argento', 'Colorata'];
+  const Collection = ['Core','Ultra','Dragon Iced Tea','Dragon Tea','Punch','Rehab Recover','Rehab','Super Fuel','Reserve','Nitro','Juiced','Java']
   const Status = ['Rovinata','Piccole ammaccature', 'Perfetta'];
 
   const updateQuery = (query: string) => dispatch(setQuery({query}));
@@ -44,6 +46,8 @@ export const SidebarBody = () => {
   const updateFull = (full: boolean) => dispatch(setFull({full}));
 
   const updateTabColor = (tabColor: string) => dispatch(setTabColor({tabColor}));
+
+  const updateCollection = (collection: string) => dispatch(setCollection({collection}));
 
   const updateStatus = (status: string) => dispatch(setStatus({status}));
 
@@ -80,6 +84,18 @@ export const SidebarBody = () => {
             {BackgroundColors.map((color, i) => (
               <SidebarButton value={backgroundColor} onClickAction={() => updateBackgroundColor(color)} text={color}
                              key={i}/>
+            ))}
+          </Box>
+        </Field>
+        <Field
+          label="Collection"
+          icon={<Button size={'xs'} className={'p-0 bg-[#90FD03]'}><TbZoomReset/></Button>}
+          iconOnClick={() => updateCollection('')}
+          iconTooltip={'Reset filter'}
+        >
+          <Box className={'flex flex-wrap gap-1'}>
+            {Collection.map((collect, i) => (
+              <SidebarButton value={collection} onClickAction={() => updateCollection(collect)} text={collect} key={i}/>
             ))}
           </Box>
         </Field>

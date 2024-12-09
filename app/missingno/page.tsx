@@ -7,11 +7,15 @@ import {selectFilters} from "@/redux/filtersSlice/selectors";
 import {setResultsNumber} from "@/redux/filtersSlice/filtersSlice";
 import {Box, Card, Button} from "@chakra-ui/react";
 import { Url } from "next/dist/shared/lib/router/router";
+import {DataListItem, DataListRoot} from "@/components/ui/data-list";
 import NextLink from 'next/link'
 
 interface Monster {
   Foto: string;
   Nome: string;
+  Collezione: string;
+  Logo: Array<string>;
+  Sfondo: Array<string>;
   Link: Url;
 }
 
@@ -75,6 +79,15 @@ export default function Home() {
 
           <Card.Body gap="2">
             <Card.Title>{monster.Nome}</Card.Title>
+            <DataListRoot>
+            <Box className={'flex flex-wrap gap-5'}>
+                <DataListItem label={'Collection'} value={monster.Collezione}/>
+              </Box>
+              <Box className={'flex flex-wrap gap-5'}>
+                <DataListItem label={'Logo Color'} value={monster.Logo}/>
+                <DataListItem label={'Background Color'} value={monster.Sfondo}/>
+              </Box>
+            </DataListRoot>
           </Card.Body>
           <Card.Footer>
           <NextLink href={monster.Link}>

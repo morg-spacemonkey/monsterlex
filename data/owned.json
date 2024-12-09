@@ -6,7 +6,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrarosa.png",
@@ -15,7 +15,7 @@
         "Sfondo": ["Rosa"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 3
     },
     {
         "Foto": "/owned/ultraparadise.png",
@@ -23,8 +23,8 @@
         "Logo": ["Argento"],
         "Sfondo": ["Verde"],
         "Linguetta": "Argento",
-        "Piena": false,
-        "Stato": 0
+        "Piena": true,
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultraviolet.png",
@@ -42,7 +42,7 @@
         "Sfondo": ["Bianco"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrared.png",
@@ -51,7 +51,7 @@
         "Sfondo": ["Rosso"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultragold.png",
@@ -60,7 +60,7 @@
         "Sfondo": ["Oro"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrafiestamango.png",
@@ -69,7 +69,7 @@
         "Sfondo": ["Verde","Blu","Azzurro"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrapeachy.png",
@@ -78,7 +78,7 @@
         "Sfondo": ["Arancione","Pesca","Rosa"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrawatermelon.png",
@@ -96,7 +96,7 @@
         "Sfondo": ["Blu","Azzurro"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ultrablack.png",
@@ -105,7 +105,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/peachdragon.png",
@@ -132,7 +132,7 @@
         "Sfondo": ["Oro"],
         "Linguetta": "Colorata",
         "Piena": false,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/punchmixxd.png",
@@ -150,7 +150,7 @@
         "Sfondo": ["Rosa","Pesca","Arancione"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/pacificpunch.png",
@@ -159,7 +159,7 @@
         "Sfondo": ["Beige","Panna"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/zerogreen.png",
@@ -168,7 +168,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/zeroblu.png",
@@ -177,7 +177,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/rehabstrawberry.png",
@@ -186,7 +186,7 @@
         "Sfondo": ["Rosso"],
         "Linguetta": "Colorata",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/rehabgreentea.png",
@@ -195,16 +195,16 @@
         "Sfondo": ["Verde"],
         "Linguetta": "Colorata",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
-        "Foto": "/owned/rehabpeactea.png",
+        "Foto": "/owned/rehabpeachtea.png",
         "Nome": "Rehab Peach Tea",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione","Pesca"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/rehablemonade.png",
@@ -222,7 +222,7 @@
         "Sfondo": ["Verde","Nero"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/mule.png",
@@ -231,7 +231,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/megamonster.png",
@@ -240,7 +240,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/superfuelblue.png",
@@ -249,7 +249,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/ubermonster.png",
@@ -267,7 +267,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Colorata",
         "Piena": false,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/reservekiwi.png",
@@ -276,7 +276,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Colorata",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/reserveorange.png",
@@ -285,7 +285,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/reservewatermelon.png",
@@ -294,7 +294,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/nitrosuperdry.png",
@@ -303,7 +303,7 @@
         "Sfondo": ["Verde"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/nitrocosmicpeach.png",
@@ -321,7 +321,7 @@
         "Sfondo": ["Arancione","Giallo"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/ripper.png",
@@ -339,7 +339,7 @@
         "Sfondo": ["Arancione","Pesca","Rosa"],
         "Linguetta": "Argento",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/mangoloco.png",
@@ -348,7 +348,7 @@
         "Sfondo": ["Blu","Azzurro"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/aussielemonade.png",
@@ -357,7 +357,7 @@
         "Sfondo": ["Verde","Blu","Azzurro"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/badapple.png",
@@ -366,7 +366,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/thedoctor.png",
@@ -375,7 +375,7 @@
         "Sfondo": ["Giallo"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/lewishamilton.png",
@@ -384,7 +384,7 @@
         "Sfondo": ["Blu","Verde"],
         "Linguetta": "Argento",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/lewishamiltonred.png",
@@ -393,7 +393,7 @@
         "Sfondo": ["Rosso"],
         "Linguetta": "Nera",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/locamoca.png",
@@ -402,7 +402,7 @@
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/saltedcaramel.png",
@@ -420,7 +420,7 @@
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/mocha300.png",
@@ -429,7 +429,7 @@
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/frenchvanilla300.png",
@@ -438,7 +438,7 @@
         "Sfondo": ["Marrone","Beige"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 0
+        "Stato": 2
     },
     {
         "Foto": "/owned/espresso.png",
@@ -447,7 +447,7 @@
         "Sfondo": ["Nero"],
         "Linguetta": "Nera",
         "Piena": false,
-        "Stato": 0
+        "Stato": 1
     },
     {
         "Foto": "/owned/rehabpeachtea.png",
@@ -456,7 +456,7 @@
         "Sfondo": ["Arancione"],
         "Linguetta": "Nera",
         "Piena": true,
-        "Stato": 1
+        "Stato": 2
     },
     {
         "Foto": "/owned/ultrastrawberry.png",

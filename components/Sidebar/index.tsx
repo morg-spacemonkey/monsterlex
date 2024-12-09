@@ -108,7 +108,7 @@ export const SidebarBody = () => {
           </Box>
         </Field>
         <Field>
-          <Switch checked={full} onCheckedChange={(e) => updateFull(e.checked)}>Solo piene</Switch>
+          <Switch checked={full} onCheckedChange={(e) => updateFull(e.checked)}>Solo vuote</Switch>
         </Field>
       </Card.Body>
     </Card.Root>

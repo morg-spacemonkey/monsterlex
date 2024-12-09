@@ -1,47 +1,59 @@
 [
-    {
-        "Foto": "/lookfor/cocaoreo.png",
-        "Nome": "Coca Cola Oreo",
-        "Link": "https://americanuncle.it/products/coca-cola-zero-sugar-oreo-limited-edition-250ml"
-    },
+    
     {
         "Foto": "/lookfor/irishcream.png",
         "Nome": "Java Irish Cream",
+        "Logo": ["Marrone"],
+        "Sfondo": ["Verde"],
+        "Linguetta": "Nera",
         "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-rio-punch"
     },
     {
         "Foto": "/lookfor/rehablemonade.png",
         "Nome": "Rehab Recover Tea Lemonade",
+        "Logo": ["Nero"],
+        "Sfondo": ["Giallo"],
+        "Linguetta": "Colorata",
         "Link": "https://www.davesamericanfood.com/prodotto/monster-rehab-recover-lemonade-tea/"
     },
     {
         "Foto": "/lookfor/rehabwatermelon.png",
         "Nome": "Rehab Recover Watermelon",
+        "Logo": ["Nero"],
+        "Sfondo": ["Rosso"],
+        "Linguetta": "Nera",
         "Link": "https://www.davesamericanfood.com/prodotto/monster-rehab-recover-watermelon-tea"
     },
     {
         "Foto": "/lookfor/reservepeach.png",
         "Nome": "Reserve Peach n'Cream",
+        "Logo": ["Arancione","Pesca","Rosa"],
+        "Sfondo": ["Nero"],
+        "Linguetta": "Argento",
         "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-reserve-peaches-ncreme"
     },
     {
         "Foto": "/lookfor/riopunch.png",
         "Nome": "Juice Rio Punch",
+        "Logo": ["Verde","Blu","Azzurro"],
+        "Sfondo": ["Giallo","Verde"],
+        "Linguetta": "Colorata",
         "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-rio-punch"
     },
     {
         "Foto": "/lookfor/ultrafantasyruby.png",
         "Nome": "Ultra Fantasy Ruby Red",
+        "Logo": ["Argento"],
+        "Sfondo": ["Rosa"],
+        "Linguetta": "Argento",
         "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-ultra-fantasy-ruby-red"
-    },
-    {
-        "Foto": "/lookfor/ultrastrawberry.png",
-        "Nome": "Ultra Strawberry Dreams",
-        "Link": "https://www.davesamericanfood.com/prodotto/monster-energy-ultra-strawberry-eu"
     },
     {
         "Foto": "/lookfor/ultrasunrise.png",
         "Nome": "Black Ultra Sunrise",
+        "Logo": ["Argento"],
+        "Sfondo": ["Arancione"],
+        "Linguetta": "Argento",
         "Link": "https://www.wardenwayamerica.com/collections/elite-cans-limited-edition"
     }
 ]

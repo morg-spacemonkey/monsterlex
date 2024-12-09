@@ -457,5 +457,15 @@
         "Linguetta": "Nera",
         "Piena": true,
         "Stato": 1
+    },
+    {
+        "Foto": "/owned/ultrastrawberry.png",
+        "Nome": "Ultra Strawberry Dreams",
+        "Logo": ["Argento"],
+        "Sfondo": ["Rosa"],
+        "Linguetta": "Argento",
+        "Piena": true,
+        "Stato": 1
     }
+
 ]

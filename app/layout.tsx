@@ -1,6 +1,11 @@
-import type { Metadata } from "next";
+import type {Metadata} from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Menu from "@/components/Menu";
+import {Providers} from "@/components/Providers";
+import Sidebar from "@/components/Sidebar";
+import {Box} from "@chakra-ui/react";
+import Content from "@/components/Content";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +33,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+      <Providers>
+        <Box className={'w-[100vw] h-[100vh] overflow-hidden flex flex-col'}>
+          <Menu/>
+          <Box className={'flex overflow-hidden'}>
+            <Sidebar/>
+            <Content>
+              {children}
+            </Content>
+          </Box>
+        </Box>
+      </Providers>
       </body>
     </html>
   );

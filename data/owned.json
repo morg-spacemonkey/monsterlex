@@ -180,6 +180,15 @@
         "Stato": 2
     },
     {
+        "Foto": "/owned/rehabpeachtea.png",
+        "Nome": "Rehab Recover Peach Tea",
+        "Logo": ["Nero"],
+        "Sfondo": ["Arancione"],
+        "Linguetta": "Nera",
+        "Piena": true,
+        "Stato": 2
+    },
+    {
         "Foto": "/owned/rehabstrawberry.png",
         "Nome": "Rehab Recover Strawberry Lemonade",
         "Logo": ["Nero"],
@@ -198,7 +207,7 @@
         "Stato": 1
     },
     {
-        "Foto": "/owned/rehabpeachtea.png",
+        "Foto": "/owned/rehabpeactea.png",
         "Nome": "Rehab Peach Tea",
         "Logo": ["Nero"],
         "Sfondo": ["Arancione","Pesca"],
@@ -448,15 +457,6 @@
         "Linguetta": "Nera",
         "Piena": false,
         "Stato": 1
-    },
-    {
-        "Foto": "/owned/rehabpeachtea.png",
-        "Nome": "Rehab Recover Peach Tea",
-        "Logo": ["Nero"],
-        "Sfondo": ["Arancione"],
-        "Linguetta": "Nera",
-        "Piena": true,
-        "Stato": 2
     },
     {
         "Foto": "/owned/ultrastrawberry.png",

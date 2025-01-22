@@ -137,7 +137,7 @@
         "Sfondo": ["Arancione","Pesca"],
         "Linguetta": "Colorata",
         "Piena": true,
-        "Stato": 2
+        "Stato": 1
     },
     {
         "Foto": "/owned/lemondragon.png",
@@ -147,7 +147,7 @@
         "Sfondo": ["Verde"],
         "Linguetta": "Colorata",
         "Piena": true,
-        "Stato": 2
+        "Stato": 1
     },
     {
         "Foto": "/owned/dragonteagold.png",

@@ -129,7 +129,7 @@ export default function Home() {
             <DataListRoot>
             <Box className={'flex flex-wrap gap-5'}>
                 <DataListItem label={'Collection'} value={monster.Collezione}/>
-                <DataListItem label={'Status'} value={monster.Piena}/>
+                <DataListItem label={'Status'} value={normalizeFullness(monster.Piena)}/>
               </Box>
               <Box className={'flex flex-wrap gap-5'}>
                 <DataListItem label={'Logo Color'} value={monster.Logo}/>

@@ -101,6 +101,14 @@ export default function Home() {
     }
   }
 
+  const normalizeFullness = (status: boolean) => {
+    switch (status) {
+      case true:
+        return 'Piena';
+      case false:
+        return 'Vuota';
+  }
+
   return (
     <Box
       className="h-full overflow-y-auto flex flex-wrap gap-5 pt-28 font-[family-name:var(--font-geist-sans)]">
@@ -121,7 +129,7 @@ export default function Home() {
             <DataListRoot>
             <Box className={'flex flex-wrap gap-5'}>
                 <DataListItem label={'Collection'} value={monster.Collezione}/>
-                <DataListItem label={'Unopened'} value={monster.Piena}/>
+                <DataListItem label={'Status'} value={monster.Piena}/>
               </Box>
               <Box className={'flex flex-wrap gap-5'}>
                 <DataListItem label={'Logo Color'} value={monster.Logo}/>
@@ -129,7 +137,7 @@ export default function Home() {
               </Box>
               <Box className={'flex flex-wrap gap-5'}>
                 <DataListItem label={'Tab Color'} value={monster.Linguetta}/>
-                <DataListItem label={'Status'} value={normalizeStatus(monster.Stato)}/>
+                <DataListItem label={'Conservation'} value={normalizeStatus(monster.Stato)}/>
               </Box>
             </DataListRoot>
           </Card.Body>

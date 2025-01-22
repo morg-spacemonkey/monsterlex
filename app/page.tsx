@@ -108,6 +108,7 @@ export default function Home() {
       case false:
         return 'Vuota';
   }
+}
 
   return (
     <Box
